@@ -1,6 +1,6 @@
+import 'dotenv/config'
 import { serve } from '@hono/node-server'
 import { Hono } from 'hono'
-import 'dotenv/config'
 import { authorRouter } from './author/author.router'
 import { BookRouter } from './books/book.router'
 
